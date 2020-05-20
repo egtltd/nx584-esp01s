@@ -1,0 +1,77 @@
+Connect nx584 to control panel Caddx NetworX
+
+Insert to panel program mode and exit to enroll nx584
+* 9713 0 # 
+Exit Exit
+Control panel re-enroll devices now, Service LED is on.
+When service LED off program nx584
+* 9713 72 # 
+0 # 1 * #
+1 # 4 * #
+Exit Exit
+
+Command 0 1 * set the NX-584 protocol to ASCII operate mode.
+Command 1 4 * set the NX-584
+
+Device 0 = Contol Panel Caddx NetworX
+Device 72 = nx584
+
+*-For begginers--------------------------------------------------
+Connect nx584 to control panel Caddx NetworX
+
+The NetworX control panels have the ability to automatically find and store in memory the presence of all keypads,
+zone expanders, wireless receivers, output modules, and any other device on the keypad buss.
+This allows these devices to be supervised by the control panel.  
+To enroll the nx584, enter the Program Mode using the procedure outlined in the control panel Installation Manual.
+When the Program Mode is exited, the NX-8 control will automatically enroll the devices.
+The enrolling process takes about 12 seconds, during which time the Service LED will illuminate.
+User codes will not be accepted during the enrolling process.
+
+**-Enroll devices -------------------------------------------------------------
+To enter the Program Mode:
+Enter [*]-[8]  (all of the function key LEDs will begin to flash).
+Enter the "Go To Program" code (default is [9]-[7]-[1]-[3]).
+If the code was valid, the Service LED will flash, and the function LEDs will illuminate steady,
+indicating the device to program should be entered.
+
+Enter the address of the control panel Caddx NetworX, which is [0] followed by [#].  
+At this point, the Armed LED will illuminate while it is waiting for a programming location to be entered.
+
+To exit the Program Mode, press the [Exit] key to exit this programming level.  
+Pressing the [Exit] key again will exit the Program Mode.
+
+***-Program nx584--------------------------------------------------------------
+To enter the Program Mode:
+Enter [*]-[8]  (all of the function key LEDs will begin to flash).
+Enter the "Go To Program" code (default is [9]-[7]-[1]-[3]).
+If the code was valid, the Service LED will flash, and the function LEDs will illuminate steady,
+indicating the device to program should be entered.
+
+Enter the address of nx584, which is [7]-[2] followed by [#].  
+At this point, the Armed LED will illuminate while it is waiting for a programming location to be entered.
+
+Enter the desired [0] programming location followed by the [#] key. 
+[0]-[#]
+The Armed LED will begin to flash while a programming location is being entered.
+If this is a valid location, the Armed LED will extinguish, the Ready LED will illuminate, 
+and the binary data for the first segment of this location will be shown on the zone LEDS.
+
+To change the data at location [0], enter the data followed by [*]
+[1]-[*]
+
+To exit this location, press the [#] key
+
+Enter the desired [1] programming location followed by the [#] key. 
+[1]-[#]
+
+To change the data at location [1], enter the data followed by [*]
+[4]-[*]
+
+To exit this location, press the [#] key
+
+To exit the Program Mode, press the [Exit] key to exit this programming level.  
+Pressing the [Exit] key again will exit the Program Mode.
+
+Wait 12 seconds, during which time the Service LED will illuminate.
+
+
