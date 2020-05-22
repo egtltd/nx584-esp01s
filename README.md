@@ -1,4 +1,4 @@
-# nx584-esp8266
+# nx584-esp01s
 In this project add to nx584e wifi module ESP01S.
 
 ![](esp01s.jpg)
