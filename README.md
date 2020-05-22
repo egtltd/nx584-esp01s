@@ -18,3 +18,8 @@ After that can connect to alarm control panel via wifi from Home Assistant with 
 # NX-584e connections front side.
 
 ![](NX-584e_connections_front.jpg)
+
+# NX-584e connections back side
+
+![](NX-584e_connections_back.jpg)
+
