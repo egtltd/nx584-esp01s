@@ -11,6 +11,10 @@ After that can connect to alarm control panel via wifi from Home Assistant with 
 
 ![](remove_stickers.jpg)
 
+# Make schematic
+
 ![](Schematic_.jpg)
 
-# Remove the stickers
+# NX-584e connections front side.
+
+![](NX-584e_connections_front.jpg)
